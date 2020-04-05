@@ -14,6 +14,13 @@ export const globalStyles = StyleSheet.create({
     flex: 1,
     padding: 20,
   },
+  input: {
+    borderWidth: 1,
+    borderColor: '#ddd',
+    padding: 10,
+    fontSize: 18,
+    borderRadius: 6,
+  },
 });
 
 export const images = {
@@ -23,5 +30,5 @@ export const images = {
     '3': require('../assets/rating-3.png'),
     '4': require('../assets/rating-4.png'),
     '5': require('../assets/rating-5.png'),
-  }
+  },
 };
